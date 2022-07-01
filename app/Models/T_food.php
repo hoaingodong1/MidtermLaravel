@@ -9,8 +9,8 @@ class T_food extends Model
 {
     use HasFactory;
   
-    // protected $fillable = [
-    //     'name', 'image','price','old-price','detail','type'
-    // ];
+    protected $fillable = [
+       'name', 'image','price','old_price','detail','type'
+    ];
     protected $table="t_food";
 }
