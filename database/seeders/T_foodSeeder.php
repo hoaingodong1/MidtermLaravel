@@ -20,8 +20,8 @@ class T_foodSeeder extends Seeder
             DB::table('t_food')->insert([
                 'name' => $fake->name,
                 'image' => $fake->imageUrl(),
-                'price' => $fake->numberBetween($min = 10000, $max = 20000),
-                'old_price' => $fake->numberBetween($min = 30000, $max = 40000),
+                'price' => $fake->numberBetween($min = 30000, $max = 40000),
+                'old_price' => $fake->numberBetween($min = 40000, $max = 50000),
                 'detail' => $fake->sentence,
                 'type' => $fake ->name,          
                 
